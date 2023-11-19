@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'General Sans';
+}
+
+body{
+    position: relative;
+    margin: 0;
+}
+/* Main start from here */
+
+.main {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Home start from here */
+/* Home start from here */
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(73, 73, 73);
+    color: rgb(0, 0, 0);
+}
+.nav {
+    padding: 30px 27px;
+    font-size: 20px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+/* Add this CSS to your stylesheet */
+
+#lineanimation {
+    position: relative;
+    overflow: hidden;
+}
+#lineanimation::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Adjust the height of the line */
+    background-color: #000; /* Adjust the color of the line */
+    transition: width 0.2s ease-in-out; /* Adjust the duration and timing function */
+}
+#lineanimation:hover::before {
+    width: 100%;
+}
+#lineanimationw {
+    position: relative;
+    overflow: hidden;
+}
+#lineanimationw::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1.7px; /* Adjust the height of the line */
+    background-color: #ffffff; /* Adjust the color of the line */
+    transition: width 0.2s ease-in-out; /* Adjust the duration and timing function */
+}
+#lineanimationw:hover::before {
+    width: 100%;
+}
+/* Add this to your existing CSS */
+.nav h4 {
+    position: relative;
+    display: inline-block;
+}
+/* Define the transition for the line */
+.nav h4::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+/* Add hover effect for the line */
+.nav h4:hover::before {
+    width: 100%;
+}
+.headings {
+    font-family: 'General Sans Medium';
+    margin-left: 30px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-weight: 1100;
+    font-size: 5vw;
+    line-height: .9;
+}
+
+.secondheadings {
+    font-size: 5vw;
+    width: fit-content;
+    margin-left: 11vw;
+}
+
+.secondheadings h5 {
+    font-size: 1.5vw;
+    right: 0;
+    line-height: 2;
+    text-align: right !important;
+}
+
+.subheadings {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 1.7vw;
+    margin-top: 180px;
+    text-align: right;
+    color: black;
+}
+
+.homeFooter {
+    margin-top: 14vw;
+    padding: 0 15px;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeFooter a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+
+
+.iconss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.iconss .circle {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(170, 169, 169);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding-bottom: 1px;
+}
+
+
+/* The second page start from here */
+
+.pgtoo {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+} 
+
+
+/*  The end page start from here okay so don't be silly... */
+
+.endPage {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+.endPage .about {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;    
+    padding-left: 395px;
+    padding-top: 50px;
+}
+.endPage .about .img img {
+    width: 19vw;
+    height: 25vw;
+    border-radius: 10px;
+}
+.parah h5 {
+    text-transform: uppercase;
+    opacity: .8;
+}
+.parah {
+    line-height: 1.2;
+    font-size: 1.3vw;
+}
+.parah p{
+    width: 70%;
+    line-height: 1.2;
+    font-size: 1.3vw;
+}
+.parah button {
+    margin-top: 10px;
+    border-radius: 25px;
+    color: white;
+    width: 90px;
+    background-color: transparent;
+    border: 1px solid gray;
+    height: 40px;
+    transition: all ease-out .5s;
+}
+
+.parah button:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 1px solid gray;
+    transition: all ease-in .5s;
+}
+.subhead {
+    text-transform: uppercase;
+    font-size: 1.vw;
+    margin-top: 210px;
+    padding-left: 10px;
+    width: fit-content;
+}
+.subhead h5{
+    opacity: .8;
+    
+    text-transform: uppercase;
+}
+
+.endfooter {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.endfooter .leftl {
+    font-size: 1.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.endfooter .rightl {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    font-size: 1.4vw;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+
+}
+.endfooter .rightl a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    font-size: 1.4vw;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+
+}
