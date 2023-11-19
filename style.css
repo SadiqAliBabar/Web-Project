@@ -1,7 +1,15 @@
+@font-face {
+    font-family: general sans;
+    src: url(./GeneralSans-Regular.woff);
+}
+@font-face {
+    font-family: general sans M;
+    src: url(./GeneralSans-Medium.woff);
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: 'General Sans';
+    font-family: 'general sans';
 }
 
 body{
@@ -96,7 +104,7 @@ body{
     width: 100%;
 }
 .headings {
-    font-family: 'General Sans Medium';
+    font-family: 'general sans M';
     margin-left: 30px;
     text-transform: uppercase;
     margin-top: 70px;
