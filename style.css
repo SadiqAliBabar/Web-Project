@@ -136,7 +136,8 @@ body{
 }
 
 .homeFooter {
-    margin-top: 14vw;
+    bottom: -20%;
+    position: relative;
     padding: 0 15px;
     width: 97%;
     display: flex;
@@ -152,6 +153,7 @@ body{
 
 
 .iconss {
+    font-size: 1.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,8 +166,9 @@ body{
     align-items: center;
     justify-content: center;
     background-color: rgb(170, 169, 169);
-    width: 25px;
-    height: 25px;
+    width: 2.5vw;
+    height: 2.5vw;
+    font-size: 1.5vw;
     border-radius: 50%;
     padding-bottom: 1px;
 }
@@ -195,7 +198,7 @@ body{
     display: flex;
     align-items: center;
     gap: 30px;    
-    padding-left: 395px;
+    padding-left: 35vw;
     padding-top: 50px;
 }
 .endPage .about .img img {
@@ -217,13 +220,14 @@ body{
     font-size: 1.3vw;
 }
 .parah button {
+    font-size: 1vw;
     margin-top: 10px;
     border-radius: 25px;
     color: white;
-    width: 90px;
+    width: 8vw;
     background-color: transparent;
     border: 1px solid gray;
-    height: 40px;
+    height:3vw;
     transition: all ease-out .5s;
 }
 
@@ -235,14 +239,14 @@ body{
 }
 .subhead {
     text-transform: uppercase;
-    font-size: 1.vw;
+    font-size: 1vw;
     margin-top: 210px;
     padding-left: 10px;
     width: fit-content;
 }
 .subhead h5{
     opacity: .8;
-    
+    font-size: 1.5;
     text-transform: uppercase;
 }
 
@@ -258,6 +262,7 @@ body{
 .endfooter .leftl {
     font-size: 1.4vw;
     display: flex;
+    gap: 5px;
     align-items: center;
     justify-content: space-around;
     margin-left: 20px;
@@ -267,7 +272,7 @@ body{
     text-decoration: none;
     display: flex;
     font-size: 1.4vw;
-    gap: 70px;
+    gap: 2vw;
     align-items: center;
     justify-content: space-around;
     margin-right: 20px;
@@ -278,7 +283,7 @@ body{
     text-decoration: none;
     display: flex;
     font-size: 1.4vw;
-    gap: 70px;
+    gap: 2vw;
     align-items: center;
     justify-content: space-around;
     margin-right: 20px;
