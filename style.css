@@ -203,10 +203,10 @@
     align-items: center;
     gap: 30px;    
     padding-left: 35vw;
-    padding-top: 50px;
+    padding-top: 12vh;
 }
 .endPage .about .img img {
-    padding-top: 8vh;
+    /* padding-top: 4vh; */
     width: 19vw;
     height: 25vw;
     border-radius: 10px;
@@ -216,7 +216,7 @@
     opacity: .8;
 }
 .parah {
-    padding-top: 8vh;
+    /* padding-top: 4vh; */
     line-height: 1.2;
     font-size: 1.3vw;
 }
@@ -246,15 +246,19 @@
 .subhead {
     text-transform: uppercase;
     font-size: 1vw;
-    margin-top:  21vh;
+    margin-top:  18vh;
     padding-left: 10px;
     width: fit-content;
 }
 .subhead h5{
-    opacity: .8;
+    opacity: .7;
     font-size: 1.5;
     text-transform: uppercase;
 }
+.subhead h4{
+    opacity: .8;
+}
+
 
 .endfooter {
     position: absolute;
