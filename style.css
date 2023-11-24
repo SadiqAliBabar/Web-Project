@@ -12,15 +12,9 @@
     font-family: 'general sans';
 }
 
-/* body{
-    position: relative;
-    margin: 0;
-} */
-/* Main start from here */
 
 .main {
     width: 100%;
-    max-width: 100%;
 }
 
 /* Home start from here */
@@ -213,14 +207,47 @@
 
 /* The second page start from here */
 
-.pgtoo {
+.second {
+    color: #fff;
+    padding-right: 10vw;
+    padding-top: 200px;
+    padding-left: 3vw;
     background-color: black;
-    color: aliceblue;
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
-} 
+}
 
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
 
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .7;
+}
+.elem h5 {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    opacity: .7;
+}
+
+.elem img{
+    position: absolute;
+    z-index: 999;
+    height: 140%;
+    display: none;
+}
+.elemlast {
+    border-bottom: 1px solid #888;
+}
 /*  The end page start from here okay so don't be silly... */
 
 .endPage {
