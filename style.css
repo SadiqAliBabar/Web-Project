@@ -115,6 +115,10 @@
     font-weight: 100;
     font-size: 5vw;
     line-height: .9;
+    
+}
+.headings h1{
+    
     opacity: .6;
 }
 
@@ -123,19 +127,21 @@
     /* font-weight: 200; */
     width: fit-content;
     margin-left: 11vw;
+    
 }
 
 .secondheadings h5 {
-    font-size: 1.5vw;
+    opacity: 1;
+    font-size: 1.2vw;
     right: 0;
-    font-weight: 100;
+    font-weight: 600;
     line-height: 2;
     text-align: right !important;
     
 }
 
 .subheadings {
-    opacity: .7;
+    opacity: .9;
     text-transform: uppercase;
     margin-right: 20px;
     font-size: 1.2vw;
@@ -148,6 +154,7 @@
     margin-right: 20px;
     font-size: 1.2vw;
     font-weight: 600;
+    margin-bottom: 7px;
     text-align: right;
     color: rgb(255, 255, 255);
 }
