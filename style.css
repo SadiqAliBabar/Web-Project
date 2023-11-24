@@ -217,14 +217,16 @@
 
 }
 .endPage .about {
-    max-width: 100%;
+    height: 50vh;
+    max-width : 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 30px;    
-    padding-left: 35vw;
+    padding-left: 25vw;
     padding-top: 12vh;
 }
-.endPage .about .img img {
+ .about  img {
     /* padding-top: 4vh; */
     width: 19vw;
     height: 25vw;
@@ -232,16 +234,17 @@
 }
 .parah h5 {
     text-transform: uppercase;
-    opacity: .8;
+    opacity: .6;
 }
 .parah {
     /* padding-top: 4vh; */
-    line-height: 1.2;
+    line-height: 1.4;
     font-size: 1.3vw;
 }
 .parah p{
     width: 70%;
-    line-height: 1.2;
+    opacity: 1;
+    line-height: 1.6;
     font-size: 1.3vw;
 }
 .parah button {
@@ -266,23 +269,29 @@
     text-transform: uppercase;
     font-size: 1vw;
     margin-top:  18vh;
-    padding-left: 10px;
+    padding-left: 3vw;
     width: fit-content;
 }
 .subhead h5{
     opacity: .7;
-    font-size: 1.5;
+    font-size: .93rem;
     text-transform: uppercase;
 }
 .subhead h4{
-    opacity: .8;
+    opacity: 1;
+    font-size: .99rem;
+    font-weight: 800;
+    line-height: 1.25rem;
+    text-transform: uppercase;
 }
 
 
+
 .endfooter {
+    padding-left:3vw;
     position: absolute;
     bottom: 1%;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -294,9 +303,9 @@
     gap: 5px;
     align-items: center;
     justify-content: space-around;
-    margin-left: 20px;
+    
 }
-.endfooter .rightl {
+.endfooter .rightl { 
     color: white;
     text-decoration: none;
     display: flex;
