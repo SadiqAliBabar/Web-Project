@@ -110,13 +110,14 @@
     margin-left: 30px;
     text-transform: uppercase;
     margin-top: 70px;
-    font-weight: 1100;
+    font-weight: 100;
     font-size: 5vw;
     line-height: .9;
 }
 
 .secondheadings {
     font-size: 5vw;
+    /* font-weight: 200; */
     width: fit-content;
     margin-left: 11vw;
 }
@@ -124,8 +125,10 @@
 .secondheadings h5 {
     font-size: 1.5vw;
     right: 0;
+    font-weight: 100;
     line-height: 2;
     text-align: right !important;
+    
 }
 
 .subheadings {
@@ -136,12 +139,28 @@
     text-align: right;
     color: black;
 }
+.subheadings h4{
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 1.7vw;
+    font-weight: 600;
+    text-align: right;
+    color: black;
+}
+.subheadings h4:nth-child(2){
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 1.7vw;
+    font-weight: 800;
+    text-align: right;
+    color: black;
+}
 
 .homeFooter {
     padding: 0 2vw;
     max-width: 95%;
     position: absolute;
-    bottom: 3%;
+    bottom: 1%;
     width: 97%;
     display: flex;
     justify-content: space-between;
