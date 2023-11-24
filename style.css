@@ -29,7 +29,7 @@
     position: relative;
     margin: 0;
     max-width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: rgb(73, 73, 73);
     color: rgb(0, 0, 0);
 }
@@ -132,7 +132,7 @@
     text-transform: uppercase;
     margin-right: 20px;
     font-size: 1.7vw;
-    margin-top: 10vw;
+    margin-top: 8vh;
     text-align: right;
     color: black;
 }
