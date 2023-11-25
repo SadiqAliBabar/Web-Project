@@ -13,7 +13,10 @@
 }
 
 
+
+
 .main {
+    background-color: black;
     width: 100%;
 }
 
@@ -125,7 +128,7 @@
 }
 
 .secondheadings h5 {
-    opacity: 1;
+    opacity: .8;
     font-size: 1.2vw;
     right: 0;
     font-weight: 600;
@@ -163,16 +166,15 @@
 
 .homeFooter {
     padding: 0 2vw;
-    max-width: 95%;
+    width: 95%;
     position: absolute;
     bottom: 1%;
-    width: 97%;
     display: flex;
     justify-content: space-between;
 }
 
 .homeFooter a {
-    opacity: .9;
+    opacity: .7;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1.3vw;
@@ -190,7 +192,7 @@
 }
 
 .iconss .circle {
-    color: rgb(0, 0, 0);
+    color: rgb(39, 39, 39);
     opacity: .8;
     display: flex;
     align-items: center;
@@ -371,4 +373,373 @@
     justify-content: space-around;
     margin-right: 20px;
 
+}
+
+/* CSS for MObile phones */
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .home {
+        position: relative;
+        margin: 0;
+        max-width: 100%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    .nav {
+        padding: 30px 27px;
+        font-size: 15px;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        opacity: .9;
+        font-weight: 600;
+    
+    
+    }
+    
+    /* Add this CSS to your stylesheet */
+    
+    #lineanimation {
+        position: relative;
+        overflow: hidden;
+    }
+    #lineanimation::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px; /* Adjust the height of the line */
+        background-color: #000; /* Adjust the color of the line */
+        transition: width 0.2s ease-in-out; /* Adjust the duration and timing function */
+    }
+    #lineanimation:hover::before {
+        width: 100%;
+    }
+    #lineanimationw {
+        position: relative;
+        overflow: hidden;
+    }
+    #lineanimationw::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1.7px; /* Adjust the height of the line */
+        background-color: #b4b4b4; /* Adjust the color of the line */
+        transition: width 0.2s ease-in-out; /* Adjust the duration and timing function */
+    }
+    #lineanimationw:hover::before {
+        width: 100%;
+    }
+    /* Add this to your existing CSS */
+    .nav h4 {
+        position: relative;
+        display: inline-block;
+    }
+    /* Define the transition for the line */
+    .nav h4::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: rgb(194, 194, 194);
+        bottom: 0;
+        left: 0;
+        transition: width 0.3s ease;
+    }
+    /* Add hover effect for the line */
+    .nav h4:hover::before {
+        width: 100%;
+    }
+    .headings {
+        font-family: 'general sans M';
+        margin-left: 10px;
+        text-transform: uppercase;
+        margin-top: 150px;
+        font-weight: 100;
+        font-size: 8vw;
+        line-height: .9;
+        
+    }
+    .headings h1{
+        
+        opacity: .7;
+    }
+    
+    .secondheadings {
+        font-size: 8vw;
+        /* font-weight: 200; */
+        width: fit-content;
+        margin-left: 11vw;
+        
+    }
+    
+    .secondheadings h5 {
+        opacity: 1;
+        font-size: 2vw;
+        right: 0;
+        font-weight: 600;
+        line-height: 2;
+        text-align: right !important;
+        
+    }
+    
+    .subheadings {
+        opacity: .9;
+        text-transform: uppercase;
+        font-size: 1.2vw;
+        margin-top: 16vh;
+        text-align: right;
+        color: rgb(255, 255, 255);
+    }
+    .subheadings h4{
+        text-transform: uppercase;
+        margin-right: 2px;
+        font-size: 2.2vw;
+        font-weight: 600;
+        margin-bottom: 7px;
+        text-align: right;
+        color: rgb(255, 255, 255);
+    }
+    .subheadings h4:nth-child(2){
+        text-transform: uppercase;
+        margin-right: 2px;
+        font-size: 2vw;
+        font-weight: 800;
+        text-align: right;
+        color: rgb(255, 255, 255);
+    }
+    
+    .homeFooter {
+        padding: 0 2vw;
+        width: 95%;
+        position: absolute;
+        bottom: 8%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .homeFooter a {
+        opacity: .8=9;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 2.3vw;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    
+    
+    .iconss {
+        font-size: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .iconss .circle {
+        color: rgb(2, 2, 2);
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(252, 252, 252);
+        opacity: .8;
+        width: 4vw;
+        height: 3.4vw;
+        font-size: 2.9vw;
+        border-radius: 50%;
+        padding-top: 1px;
+    }
+    
+    
+    /* The second page start from here */
+    
+    .second {
+        color: #fff;
+        padding-right: 10vw;
+        padding-top: 70px;
+        padding-left: 3vw;
+        background-color: black;
+        max-width: 100%;
+        height: 50vh;
+    }
+    
+    .elem {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 3.5vw 3vw;
+        padding-right: 0;
+        border-top: 1px solid #888;
+    }
+    
+    .elem h1 {
+        text-transform: uppercase;
+        font-size: 13vw;
+        opacity: .7;
+    }
+    .elem h5 {
+        text-transform: uppercase;
+        font-size: 2.5vw;
+        opacity: .7;
+    }
+    
+    .elem img{
+        position: absolute;
+        z-index: 999;
+        height: 140%;
+        display: none;
+    }
+    .elemlast {
+        border-bottom: 1px solid #888;
+    }
+    /*  The end page start from here okay so don't be silly... */
+    
+    .endPage {
+        position: relative;
+        color: white;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    
+    }
+    .endPage .about {
+        height: 50vh;
+        max-width : 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;    
+        padding-left: 11vw;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3vh;
+    }
+     .about  img {
+        /* padding-top: 4vh; */
+        width: 42vw;
+        height: 52vw;
+        border-radius: 10px;
+        padding-right: 13vh;
+    }
+    .parah h5 {
+        text-transform: uppercase;
+        opacity: .7;
+        font-size: 3vw;
+    }
+    .parah {
+        /* padding-top: 4vh; */
+        line-height: 1.4;
+        font-size: 1.3vw;
+    }
+    .parah p{
+        width: 90%;
+        opacity: 1;
+        line-height: 1.4;
+        font-size: 3.5vw;
+    }
+    .parah button {
+        font-size: 2vw;
+        margin-top: 10px;
+        border-radius: 25px;
+        color: white;
+        font-weight: 600;
+        width: 15vw;
+        background-color: transparent;
+        border: 1px solid gray;
+        height: 5.5vw;
+        transition: all ease-out .5s;
+    }
+    
+    .parah button:hover {
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border: 1px solid gray;
+        transition: all ease-in .5s;
+    }
+    .subhead {
+        text-transform: uppercase;
+        margin-top:  29vh;
+        padding-left: 3vw;
+        width: fit-content;
+    }
+    .subhead h5{
+        margin-bottom: 5px;
+        opacity: .7;
+        font-size: 2vw;
+        text-transform: uppercase;
+    }
+    .subhead h4{
+        margin-top: 5px;
+        padding-top: 5px;
+        opacity: 1;
+        font-size: 2.4vw;
+        font-weight: 800;
+        line-height: 1.2vw;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .endfooter {
+        position: absolute;
+        bottom: 1%;
+        width: 95%;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    
+    .endfooter .leftl {
+        font-size: 3vw;
+        margin-bottom: 4vw;
+        display: flex;
+        display: none;
+        
+        
+    }
+    .endfooter .rightl { 
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        font-size: 1.4vw;
+        gap: 9vw;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 20px;
+    
+    }
+    .endfooter .rightl a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        font-size: 2.2vw;
+        gap: 1vw;
+        font-weight: 600;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 20px;
+    
+    }
+    .endfooter .rightl a:nth-child(1){
+        padding-left: 8vw;
+    
+    }
+    
 }
