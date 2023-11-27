@@ -13,6 +13,20 @@
 }
 
 
+.cursor{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box ;
+    transition: 0.1s;
+    /* border: 3px solid rgb(255, 255, 255); */
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    pointer-events: none;
+}
 
 
 .main {
