@@ -10,6 +10,85 @@ const scroll = new LocomotiveScroll({
 });
 
 
+function firstPageAnim(){
+
+    var tl = gsap.timeline();
+
+    tl.from('.nav', {
+
+        y: '-10',
+        opacity: 0,
+        duration: 2,
+        ease: Expo.easeInOut
+        
+    })
+
+    .to('.boundingelem', {
+
+        y: 0,
+        delay : 0,
+        duration: 2,
+        delay:-1.1,
+        ease: Expo.easeInOut,
+        stagger : .2
+    })
+
+    .from('.homeFooter', {
+
+        y: -10,
+        opacity: 0,
+        duration: 1.5 ,
+        ease: Expo.easeInOut,
+        delay: -1.3,
+        ease: Expo.easeInOut
+        
+    })
+}
+
+
+
+document.querySelectorAll(".elem").forEach(function (elem) {
+    var rotate = 0;
+    var diffrot = 0;
+    var img = elem.querySelector("img");
+    var imgRect = img.getBoundingClientRect();
+  
+    elem.addEventListener("mouseleave", function () {
+      gsap.to(img, {
+        opacity: 0,
+        ease: Power3,
+        duration: 0.5,
+      });
+    });
+  
+    elem.addEventListener("mousemove", function (dets) {
+      var elemRect = elem.getBoundingClientRect();
+      var imgCenterX = imgRect.width / 2;
+      var imgCenterY = imgRect.height / 2;
+  
+      var diffX = dets.clientX - elemRect.left - imgCenterX;
+      var diffY = dets.clientY - elemRect.top - imgCenterY;
+  
+      diffrot = dets.clientX - rotate;
+      rotate = dets.clientX;
+  
+      // Ensure the image stays within the container
+      var maxX = elemRect.width - imgRect.width;
+      var maxY = elemRect.height - imgRect.height;
+  
+      gsap.to(img, {
+        opacity: 1,
+        ease: Power3,
+        top: Math.min(maxY, Math.max(0, diffY)) + "px",
+        left: Math.min(maxX, Math.max(0, diffX)) + "px",
+        rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
+      });
+    });
+  });
+  
+
+
+firstPageAnim();
 
 
 

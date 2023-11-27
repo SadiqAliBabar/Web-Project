@@ -132,12 +132,22 @@
     
     opacity: .6;
 }
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+.bounding .boundingelem{
+    transform: translateY(110%);
+}
 
 .secondheadings {
     font-size: 5vw;
     /* font-weight: 200; */
     width: fit-content;
     margin-left: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     
 }
 
@@ -155,6 +165,9 @@
     opacity: .9;
     text-transform: uppercase;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     font-size: 1.2vw;
     margin-top: 8vh;
     text-align: right;
@@ -258,8 +271,9 @@
 .elem img{
     position: absolute;
     z-index: 999;
-    height: 140%;
-    display: none;
+    height: 130%;
+    opacity: 0;
+    /* transform: translate(-50%, -50%); */
 }
 .elemlast {
     border-bottom: 1px solid #888;
