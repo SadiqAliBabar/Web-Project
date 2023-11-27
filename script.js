@@ -1,6 +1,8 @@
-var cursor = document.querySelector('.cursor');
+var cursor = document.querySelectorAll('.cursor');
 document.addEventListener('mousemove', function(e){
-    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+    cursor[0].style.left = e.clientX + 'px';
+    cursor[0].style.top = e.clientY + 'px';
+
     });
 const scroll = new LocomotiveScroll({
     el: document.querySelector('.main'),
