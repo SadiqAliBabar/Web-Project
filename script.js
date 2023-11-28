@@ -45,6 +45,30 @@ function firstPageAnim(){
     })
 }
 
+document.querySelectorAll(".elem").forEach(function (elem) {
+  elem.addEventListener("mouseleave", function () {
+
+    gsap.to(elem.querySelector("h1"), {
+      opacity: 1,
+      transform : 'translateX(0%)',
+      ease : Expo.easeout,
+      duration: .5,
+      scale: 1
+      
+    });
+  })
+  elem.addEventListener("mouseenter", function () {
+    
+    gsap.to(elem.querySelector("h1"), {
+      opacity: .3,
+      transform : 'translateX(13%)',
+      ease : Expo.easeInOut,
+      duration: 0.5,
+      scale: .9
+    });
+  })
+
+})
 
 
 document.querySelectorAll(".elem").forEach(function (elem) {

@@ -247,6 +247,7 @@
 }
 
 .elem {
+    transition: ease-in 0.9s;
     position: relative;
     display: flex;
     align-items: center;
@@ -262,6 +263,7 @@
     font-size: 7.6vw;
     opacity: .7;
 }
+
 .elem h5 {
     text-transform: uppercase;
     font-size: 1.5vw;
@@ -380,7 +382,6 @@
     
 }
 .endfooter .rightl { 
-    text-transform: uppercase;
     color: white;
     text-decoration: none;
     display: flex;
@@ -400,6 +401,14 @@
     align-items: center;
     justify-content: space-around;
     margin-right: 20px;
+
+}
+.endfooter .rightl a span{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+    
+    
 
 }
 
@@ -521,6 +530,9 @@
         
     }
     
+    .bounding .boundingelem{
+        transform: translateY(140%);
+    }
     .subheadings {
         opacity: .9;
         text-transform: uppercase;
