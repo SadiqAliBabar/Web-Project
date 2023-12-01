@@ -32,6 +32,16 @@ function firstPageAnim(){
         ease: Expo.easeInOut,
         stagger : .2
     })
+    .to('.boundingelem2', {
+
+        y: 0,
+        delay : 0,
+        duration: 1,
+        
+        delay:-4.1,
+        ease: Expo.easeInOut,
+        stagger : .2
+    })
 
     .from('.homeFooter', {
 
