@@ -791,6 +791,184 @@
 
 @media only screen and (min-width: 1290px) and (max-width: 1366px) {
    
+   
+    .headings {
+        font-family: 'general sans M';
+        margin-left: 30px;
+        text-transform: uppercase;
+        margin-top: 70px;
+        font-weight: 100;
+        font-size: 4vw;
+        line-height: .9;
+        
+    }
+    .headings h1{
+        
+        opacity: .6;
+    }
+   
+    
+    .secondheadings {
+        font-size: 4vw;
+        /* font-weight: 200; */
+        width: fit-content;
+        margin-left: 11vw;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        
+    }
+    
+    .secondheadings h5 {
+        opacity: .8;
+        font-size: 1.2vw;
+        right: 0;
+        font-weight: 600;
+        line-height: 2;
+        text-align: right !important;
+        
+    }
+    
+    .subheadings {
+        opacity: .9;
+        text-transform: uppercase;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        font-size: 1.1vw;
+        margin-top: 8vh;
+        text-align: right;
+        color: rgb(255, 255, 255);
+    }
+    .subheadings h4{
+        text-transform: uppercase;
+        margin-right: 20px;
+        font-size: 1.1vw;
+        font-weight: 600;
+        margin-bottom: 7px;
+        text-align: right;
+        color: rgb(255, 255, 255);
+    }
+    .subheadings h4:nth-child(2){
+        text-transform: uppercase;
+        margin-right: 20px;
+        font-size: 1.3vw;
+        font-weight: 800;
+        text-align: right;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    .second {
+        color: #fff;
+        padding-right: 10vw;
+        padding-top: 200px;
+        padding-left: 3vw;
+        background-color: black;
+        max-width: 100%;
+        height: 100vh;
+    }
+    
+    .elem {
+        transition: ease-in 0.9s;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 3.5vw 3vw;
+        padding-right: 0;
+        color: #b9b9b9;
+        border-top: 1px solid #888;
+    }
+    .second a{
+        text-decoration: none;
+        color: inherit;
+        /* opacity: .7; */
+    }
+    
+    .elem h1 {
+        text-transform: uppercase;
+        font-size: 7.2vw;
+        opacity: .7;
+    }
+    
+    .elem h5 {
+        text-transform: uppercase;
+        font-size: 1.5vw;
+        color: #f0f0f0;
+    }
+    
+    .elem img{
+        opacity: 1;
+        position: absolute;
+        z-index: 999;
+        height: 130%;
+        opacity: 0;
+        /* transform: translate(-50%, -50%); */
+    }
+    .elemlast {
+        border-bottom: 1px solid #888;
+    }
+    /*  The end page start from here okay so don't be silly... */
+    
+    
+   
+    
+    
+    .endfooter {
+        padding-left:3vw;
+        position: absolute;
+        bottom: 1%;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    
+    .endfooter .leftl {
+        font-size: 1.5vw;
+        display: flex;
+        gap: 19px;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+        
+    }
+    .endfooter .rightl { 
+        color: white;
+        text-decoration: none;
+        display: flex;
+        font-size: 1.4vw;
+        gap: 2vw;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 20px;
+    
+    }
+    .endfooter .rightl a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        font-size: 1.1vw;
+        gap: 2vw;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: .6px;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 20px;
+    
+    }
+    .endfooter .rightl a span{
+        color: rgb(0, 0, 0);
+        background-color: white;
+        text-decoration: none;
+        
+        
+    
+    }
 
     .second {
         color: #fff;
