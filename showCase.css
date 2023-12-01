@@ -37,24 +37,6 @@
     pointer-events: none;
 }
 /* line animation start from here */
-
-#lineanimation {
-    position: relative;
-    overflow: hidden;
-}
-#lineanimation::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px; /* Adjust the height of the line */
-    background-color: #000; /* Adjust the color of the line */
-    transition: width 0.2s ease-in-out; /* Adjust the duration and timing function */
-}
-#lineanimation:hover::before {
-    width: 100%;
-}
 #lineanimationw {
     position: relative;
     overflow: hidden;
@@ -107,8 +89,6 @@
     font-size: 3vw;
     opacity: .8;
     font-weight: 600;
-
-
 }
 
 .nav h4 {
@@ -155,7 +135,6 @@
 .headings {
     font-family: 'general sans M';
     margin-left: 30px;
-    text-transform: uppercase;
     margin-top: 70px;
     font-weight: 100;
     font-size: 5.5vw;
@@ -168,7 +147,7 @@
 
 .bound h1 {
 
-    background-color: rgb(131, 12, 12);
+    background-color: rgb(129, 17, 17);
     width: fit-content;
     display: flex;
     align-items: center;
