@@ -1,0 +1,193 @@
+@font-face {
+    font-family: general sans;
+    src: url(./GeneralSans-Regular.woff);
+}
+@font-face {
+    font-family: general sans M;
+    src: url(./GeneralSans-Medium.woff);
+}
+@font-face {
+    font-family: comfortaa;
+    src: url(Comfortaa-VariableFont_wght.woff);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'general sans';
+    color: black;
+}
+
+
+.cursor{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box ;
+    transition: 0.1s;
+    /* border: 3px solid rgb(255, 255, 255); */
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    opacity: .7;
+    pointer-events: none;
+}
+
+
+.main {
+    background-color: rgb(71, 71, 71);
+    width: 100%;
+    
+}
+
+.showcase {
+    position: relative;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav {
+    padding: 30px 27px;
+    font-size: 20px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity: .8;
+    font-weight: 600;
+
+
+}
+
+.nav h4 {
+    position: relative;
+    display: inline-block;
+}
+/* Define the transition for the line */
+.nav h4::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+/* Add hover effect for the line */
+.nav h4:hover::before {
+    width: 100%;
+}
+
+.headings {
+    font-family: 'general sans M';
+    margin-left: 30px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-weight: 100;
+    font-size: 5.5vw;
+    line-height: .9;
+    
+}
+.headings h1{
+    
+    opacity: .7;
+}
+
+.showcase .name{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: rgb(197, 197, 197); */
+    padding: 1vw 2vw;
+    padding-left: 3vw;
+    margin-top: 16vw;
+}
+.showcase .name h1{
+    
+    font-size: 12vw;
+    font-weight: 600;
+    color: rgb(167, 167, 167);
+    /* opacity: .8; */
+    
+}
+
+
+
+
+.secCase{
+    width: 100%;
+    height: 100vh;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+
+}
+.secCase .l{
+    padding: 3vw 1vw;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    /* background-color: rgb(168, 221, 203); */
+
+}
+.secCase .l img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+   
+
+}
+.secCase .m{
+    padding: 3vw 1vw;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    /* padding-left: 4vw; */
+    /* background-color: rgb(168, 221, 203); */
+
+}
+.secCase .m img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+
+}
+
+.secCase .r{
+    padding: 3vw 1vw;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    /* padding-left: 1vw; */
+    /* background-color: rgb(168, 221, 203); */
+    padding-right: 2vw;
+
+}
+.secCase .r img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+
+}
+
+

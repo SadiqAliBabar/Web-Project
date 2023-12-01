@@ -257,6 +257,10 @@
     padding-right: 0;
     border-top: 1px solid #888;
 }
+.second a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .elem h1 {
     text-transform: uppercase;
