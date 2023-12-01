@@ -109,7 +109,7 @@
 .showcase .name{
     width: fit-content;
     height: fit-content;
-    /* background-color: rgb(197, 197, 197); */
+    /* background-color: rgb(44, 44, 44); */
     padding: 1vw 2vw;
     padding-left: 3vw;
     margin-top: 16vw;
@@ -129,7 +129,7 @@
 .secCase{
     width: 100%;
     height: 100vh;
-    background-color: inherit;
+    background-color: rgb(44, 44, 44);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -137,6 +137,7 @@
 
 }
 .secCase .l{
+    border-right: 1px solid gray;
     padding: 3vw 1vw;
     width: 30%;
     height: 70%;
@@ -172,6 +173,7 @@
 }
 
 .secCase .r{
+    border-left: 1px solid gray;
     padding: 3vw 1vw;
     width: 30%;
     height: 70%;
@@ -191,3 +193,23 @@
 }
 
 
+.web{
+    margin-top: -10%;
+    width: 97%;
+    height: 20vh;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 6vw;
+}
+.web h1{
+    font-size: 10vw;
+    color: rgb(206, 206, 206);
+}
+
+.third{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(78, 78, 78);
+}
