@@ -2,14 +2,17 @@
     font-family: general sans;
     src: url(./GeneralSans-Regular.woff);
 }
+
 @font-face {
     font-family: general sans M;
     src: url(./GeneralSans-Medium.woff);
 }
+
 @font-face {
     font-family: comfortaa;
     src: url(Comfortaa-VariableFont_wght.woff);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -18,14 +21,14 @@
 }
 
 
-.cursor{
+.cursor {
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
     position: absolute;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
-    box-sizing: border-box ;
+    box-sizing: border-box;
     transition: 0.1s;
     /* border: 3px solid rgb(255, 255, 255); */
     transform: translate(-50%, -50%);
@@ -38,7 +41,7 @@
 .main {
     background-color: rgb(71, 71, 71);
     width: 100%;
-    
+
 }
 
 .showcase {
@@ -61,6 +64,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -74,6 +78,7 @@
     position: relative;
     display: inline-block;
 }
+
 /* Define the transition for the line */
 .nav h4::before {
     content: "";
@@ -86,6 +91,7 @@
     left: 0;
     transition: width 0.3s ease;
 }
+
 /* Add hover effect for the line */
 .nav h4:hover::before {
     width: 100%;
@@ -99,14 +105,35 @@
     font-weight: 100;
     font-size: 5.5vw;
     line-height: .9;
-    
+
 }
-.headings h1{
-    
+
+.headings h1:nth-child(2) {
+
+    background-color: rgb(167, 57, 57);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.headings h1:nth-child(2) .o {
+    display: flex;
+    opacity: 1;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.headings h1 {
+
     opacity: .7;
 }
 
-.showcase .name{
+.showcase .name {
     width: fit-content;
     height: fit-content;
     /* background-color: rgb(44, 44, 44); */
@@ -114,19 +141,20 @@
     padding-left: 3vw;
     margin-top: 16vw;
 }
-.showcase .name h1{
-    
+
+.showcase .name h1 {
+
     font-size: 12vw;
     font-weight: 600;
     color: rgb(167, 167, 167);
     /* opacity: .8; */
-    
+
 }
 
 
 
 
-.secCase{
+.secCase {
     width: 100%;
     height: 100vh;
     background-color: rgb(44, 44, 44);
@@ -136,7 +164,8 @@
     gap: 5vw;
 
 }
-.secCase .l{
+
+.secCase .l {
     border-right: 1px solid gray;
     padding: 3vw 1vw;
     width: 30%;
@@ -147,14 +176,16 @@
     /* background-color: rgb(168, 221, 203); */
 
 }
-.secCase .l img{
+
+.secCase .l img {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-   
+
 
 }
-.secCase .m{
+
+.secCase .m {
     padding: 3vw 1vw;
     width: 30%;
     height: 70%;
@@ -164,15 +195,16 @@
     /* background-color: rgb(168, 221, 203); */
 
 }
-.secCase .m img{
+
+.secCase .m img {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    
+
 
 }
 
-.secCase .r{
+.secCase .r {
     border-left: 1px solid gray;
     padding: 3vw 1vw;
     width: 30%;
@@ -184,16 +216,17 @@
     padding-right: 2vw;
 
 }
-.secCase .r img{
+
+.secCase .r img {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    
+
 
 }
 
 
-.web{
+.web {
     margin-top: -10%;
     width: 97%;
     height: 20vh;
@@ -203,12 +236,13 @@
     justify-content: flex-end;
     padding-right: 6vw;
 }
-.web h1{
+
+.web h1 {
     font-size: 10vw;
     color: rgb(206, 206, 206);
 }
 
-.third{
+.third {
     width: 100%;
     height: 100vh;
     background-color: rgb(78, 78, 78);
