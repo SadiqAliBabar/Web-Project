@@ -345,7 +345,7 @@
 
 .l1 h1:nth-child(1) {
     border-radius: 10vw;
-    color: rgb(24, 24, 24);
+    color: rgb(221, 221, 221);
     font-size: 6vw;
     padding-left: 9vw;
     padding-right: 5vw;
@@ -355,7 +355,7 @@
 
 .l1 h1 {
     padding: 2vw 2vw;
-    background-color: rgb(78, 97, 63);
+    background-color: rgb(85, 82, 84);
     border-radius: 10vw;
     border-radius: 10vw;
     font-size: 5vw;
@@ -373,13 +373,14 @@
 }
 
 .l2 h1 {
-    background-color: rgb(131, 62, 62);
+    background-color: rgba(255, 255, 255, 0.514);
     padding: 3vw 3vw;
+    
     font-size: 7vw;
     text-align: center;
     border-radius: 10vw;
     margin-right: 12vw;
-    color: rgb(14, 14, 14);
+    color: rgb(26, 26, 26);
     rotate: -20deg;
     margin-top: -6vw;
 
@@ -415,10 +416,14 @@
 }
 
 .four .img1 h4 {
+    
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-size: 5vw;
+    font-size: 6.4vw;
+    z-index: 999;
+    background-color: transparent;
+    margin-left: -8vw;
     color: white;
 }
 
@@ -426,7 +431,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 9vw;
+    gap: 5vw;
 
 }
 
@@ -434,9 +439,12 @@
     /* rotate: 16deg; */
     display: flex;
     align-items: center;
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
     font-size: 5vw;
-    color: white;
+    z-index: 99;
+    background-color: transparent;
+    /* margin-left: 18vw; */
+    color: rgb(255, 255, 255);
 }
 
 .four .img2 img {
@@ -451,9 +459,9 @@
 .last {
     position: absolute;
     overflow: hidden;
-    bottom: 0.2%;
+    bottom: 0;
     width: 100%;
-    max-height: 20vh;
+    max-height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
