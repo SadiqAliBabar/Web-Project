@@ -952,7 +952,7 @@
         display: flex;
         align-items: center;
         width: fit-content;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
         border-radius: 10vw;
         margin-bottom: 2vw;
 
@@ -962,7 +962,7 @@
         background-color: transparent;
         border-radius: 10vw;
         font-weight: 700;
-        color: rgb(26, 26, 26);
+        color: rgb(177, 177, 177);
         font-size: 6vw;
         padding-left: 5vw;
         padding-right: 5vw;
@@ -987,13 +987,14 @@
     }
 
     .l2 h1 {
-        background-color: rgb(10, 10, 10);
+        background-color: 
+        rgb(230, 230, 230);
         padding: 3vw 3vw;
         font-size: 7vw;
         text-align: center;
         border-radius: 10vw;
         margin-right: 12vw;
-        color: rgb(175, 175, 175);
+        color: rgb(3, 3, 3);
         rotate: -20deg;
         margin-top: -6vw;
 
@@ -1064,8 +1065,8 @@
     }
 
     .last {
+        background-color: transparent;
         padding-top: 5vw;
-        position: relative;
         bottom: 0%;
         width: 100%;
         max-height: f;
