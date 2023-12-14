@@ -1,0 +1,265 @@
+@font-face {
+    font-family: general sans;
+    src: url(./GeneralSans-Regular.woff);
+}
+@font-face {
+    font-family: general sans M;
+    src: url(./GeneralSans-Medium.woff);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'general sans';
+    
+}
+
+.cursor{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background-color: rgb(78, 19, 19);
+    transition: 0.1s;
+    /* border: 3px solid rgb(255, 255, 255); */
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    pointer-events: none;
+}
+
+.hometop{
+    
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+
+}
+
+.home{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    transform: translateY(-10%);
+    height: 100vh;
+    background-color: transparent;
+}
+video{
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+    object-fit: cover;
+}
+
+.homeContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: transparent;
+    z-index: 10;
+    color: white;
+    position: relative;
+    width: 100%;
+    padding-bottom: 6vw;
+    height: 100vh;
+}
+
+.nav {
+    background-color: transparent;
+    padding: 3vw 5vw;
+    font-size: 2vw;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: .8;
+    font-weight: 600;
+
+
+}
+
+.h11{
+    padding-bottom: 2vw;
+    font-size: 8vw;
+}
+
+.page2{
+    padding: 14vw 0vw;
+    width: 100%;
+    min-height: 170vh;
+    background-color: rgb(17,17,17);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: fl;
+    justify-content: flex-end;
+
+
+}
+.headings{
+    padding-top: 5vw;
+    width: 100%;
+}
+
+.elem1{ 
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+    padding: 1vw 1vw;
+    margin-bottom: 4vw;
+}
+.elem1 h1{
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 8vw;
+    padding-right: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1290px) and (max-width: 1366px) {
+
+    @font-face {
+        font-family: general sans;
+        src: url(./GeneralSans-Regular.woff);
+    }
+    @font-face {
+        font-family: general sans M;
+        src: url(./GeneralSans-Medium.woff);
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'general sans';
+        
+    }
+    
+    
+    .hometop{
+        
+        width: 100%;
+        height: 100vh;
+        background-color: transparent;
+    
+    }
+    
+    .home{
+        position: absolute;
+        width: 100%;
+        z-index: 9;
+        transform: translateY(-10%);
+        height: 100vh;
+        background-color: transparent;
+    }
+    video{
+        position: absolute;
+        width: 100%;
+        height: 120%;
+        object-fit: cover;
+        object-fit: cover;
+    }
+    
+    .homeContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: transparent;
+        z-index: 10;
+        color: white;
+        position: relative;
+        width: 100%;
+        padding-bottom: 6vw;
+        height: 100vh;
+    }
+    
+    .nav {
+        background-color: transparent;
+        padding: 3vw 5vw;
+        font-size: 1.7vw;
+        width: 96%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        opacity: .8;
+        font-weight: 600;
+    
+    
+    }
+    
+    .h11{
+        padding-bottom: 2vw;
+        font-size: 6vw;
+    }
+    
+    .page2{
+        padding: 14vw 0vw;
+        width: 100%;
+        min-height: 170vh;
+        background-color: rgb(17,17,17);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: fl;
+        justify-content: flex-end;
+    
+    
+    }
+    .headings{
+        padding-top: 5vw;
+        width: 100%;
+    }
+    
+    .elem1{ 
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: end;
+        padding: 1vw 1vw;
+        margin-bottom: 4vw;
+    }
+    .elem1 h1{
+        text-transform: uppercase;
+        line-height: 1;
+        font-size: 8vw;
+        padding-right: 2vw;
+    }
+    
+    
+
+
+}
