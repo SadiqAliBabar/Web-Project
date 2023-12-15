@@ -659,7 +659,7 @@
     .nav a {
         text-decoration: none;
         color: rgb(199, 199, 199);
-        font-size: 3vw;
+        font-size: 2vw;
         opacity: .8;
         font-weight: 600;
     }
@@ -1680,9 +1680,10 @@
     }
 
     .last {
+        padding-bottom: 6vw;
         display: none;
         width: 100%;
-        max-height: 20vh;
+        min-height: 70vh;
         display: flex;
         align-items: center;
         justify-content: center;

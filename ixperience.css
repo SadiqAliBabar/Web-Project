@@ -226,7 +226,7 @@ video{
     }
     
     .page2{
-        padding: 14vw 0vw;
+        padding: 15vw 0vw;
         width: 100%;
         min-height: 170vh;
         background-color: rgb(17,17,17);
@@ -238,7 +238,7 @@ video{
     
     }
     .headings{
-        padding-top: 5vw;
+        padding-top: 3vw;
         width: 100%;
     }
     
@@ -255,7 +255,7 @@ video{
     .elem1 h1{
         text-transform: uppercase;
         line-height: 1;
-        font-size: 8vw;
+        font-size: 6vw;
         padding-right: 2vw;
     }
     
