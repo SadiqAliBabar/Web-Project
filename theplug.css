@@ -1,0 +1,97 @@
+@font-face {
+    font-family: general sans;
+    src: url(./GeneralSans-Regular.woff);
+}
+@font-face {
+    font-family: general sans M;
+    src: url(./GeneralSans-Medium.woff);
+}
+* {
+    background-color: rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
+    font-family: 'general sans';
+    
+}
+
+
+.whtever{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+
+}
+.nav {
+    padding: 30px 27px;
+    font-size: 20px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: .8;
+    font-weight: 600;
+
+
+}
+.Sadiq{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sadiq h1{
+    font-weight: 100;
+    padding: 4vw;
+    font-size: 12vw;
+    color: rgb(234, 234, 234);
+     
+    
+
+}
+.whtever2{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+}
+.whtever2 .wht {
+    padding: 5vw;
+    margin-top: 5vw;
+    display: flex;
+    gap: 2vw;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+
+}
+.whtever2 .wht h1{
+    font-weight: 100;
+
+    color: white;
+    font-size: 5.3vw;
+
+}
+
+.real{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: -3vw;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.real h1{
+    font-weight: 100;
+    padding-top: 6vw;
+}
+
+.smiley{
+    font-size: 25vw;
+    font-weight: 100;
+    
+    
+}
