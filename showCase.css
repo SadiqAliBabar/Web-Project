@@ -159,7 +159,7 @@
 .bounding:nth-child(1) {
     display: flex;
     gap: 1vw;
-    
+
 }
 
 .bounding {
@@ -188,7 +188,7 @@
 }
 
 .headings h1 {
-    color:rgb(213, 149, 149);
+    color: rgb(213, 149, 149);
 
     opacity: .7;
 }
@@ -566,7 +566,7 @@
 
 
 
-@media only screen and (min-width: 1290px) and (max-width: 1366px) {
+@media only screen and (min-width: 1270px) and (max-width: 1369px) {
 
     @font-face {
         font-family: general sans;
@@ -701,6 +701,7 @@
     .bounding .boundingelem {
         transform: translateY(137%);
     }
+
     /* .bounding .boundingelem:nth-child(2) {
         transform: translateY%);
     } */
@@ -713,7 +714,7 @@
     }
 
     .bounding2 .boundingelem2 {
-        transform: translateY(-110%);
+        transform: translateY(-140%);
     }
 
     .headings {
@@ -722,7 +723,7 @@
         margin-left: 30px;
         margin-top: 70px;
         font-weight: 100;
-        font-size: 5.5vw;
+        font-size: 2.5vw;
         line-height: .9;
 
     }
@@ -743,7 +744,7 @@
 
 
     .headings h1 {
-        color:rgb(213, 149, 149);
+        color: rgb(213, 149, 149);
 
         opacity: .7;
     }
@@ -758,8 +759,11 @@
         justify-content: center;
     }
 
+    .headings .f1 h1:nth-child(1) {
+        font-size: 12vw;
+    }
     .headings .f1 h1:nth-child(2) {
-        font-size: 17vw;
+        font-size: 12vw;
     }
 
     .headings .f2 h1:nth-child(1) {
@@ -776,12 +780,12 @@
         justify-content: center;
         background-color: transparent;
 
-        font-size: 16vw;
+        font-size: 11vw;
     }
 
     .headings .f3 h1:nth-child(1) {
 
-        font-size: 19vw;
+        font-size: 11vw;
     }
 
     .headings .f2 {
@@ -789,7 +793,7 @@
         margin-left: 1.4vw;
         align-items: center;
         justify-content: center;
-        
+
 
         font-size: 12vw;
     }
@@ -802,9 +806,9 @@
         height: 5.5vw;
         border-radius: 50%;
         border: 2px solid;
-        background-color: rgb(223, 223, 223);
-    border-radius: 50%;
-    border-color: rgb(213, 149, 149);
+
+        border-radius: 50%;
+        border-color: rgb(213, 149, 149);
 
     }
 
@@ -995,8 +999,8 @@
     }
 
     .l2 h1 {
-        background-color: 
-        rgb(230, 230, 230);
+        background-color:
+            rgb(230, 230, 230);
         padding: 3vw 3vw;
         font-size: 7vw;
         text-align: center;
@@ -1029,8 +1033,8 @@
     }
 
     .four .img1 img {
-        width: 55%;
-        height: 55%;
+        width: 45%;
+        height: 45%;
         border-radius: 10px;
         rotate: 16deg;
         display: flex;
@@ -1067,8 +1071,8 @@
 
     .four .img2 img {
         display: flex;
-        width: 55%;
-        height: 55%;
+        width: 45%;
+        height: 45%;
         border-radius: 10px;
         rotate: -16deg;
 
@@ -1173,7 +1177,6 @@
         color: rgb(217, 217, 217);
 
     }
-
 }
 
 
